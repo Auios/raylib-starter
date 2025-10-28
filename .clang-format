@@ -1,0 +1,29 @@
+# Base configuration
+BasedOnStyle: LLVM
+
+# Indentation
+IndentWidth: 2
+UseTab: Never
+IndentAccessModifiers: false
+AccessModifierOffset: 0
+NamespaceIndentation: All
+IndentExternBlock: Indent
+
+# Line breaking and wrapping
+ColumnLimit: 120
+BreakBeforeTernaryOperators: false
+BreakBeforeBinaryOperators: None
+AlwaysBreakAfterReturnType: None
+AlwaysBreakAfterDefinitionReturnType: None
+
+# Alignment
+AlignOperands: DontAlign
+AlignAfterOpenBracket: AlwaysBreak
+PointerAlignment: Left
+
+# Parameter formatting
+BinPackParameters: false
+AllowAllParametersOfDeclarationOnNextLine: false
+
+# Code organization
+SeparateDefinitionBlocks: Always
